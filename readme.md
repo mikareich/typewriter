@@ -14,9 +14,9 @@ Clone the files and folder structure and install all dependencies from package.j
 
 Following dependencies will be installed:
 
-1. webpack@4 webpack-cli webpack-dev-server
-2. html-webpack-plugin
-3. css-loader style-loader sass-loader sass
-4. @babel/core babel-loader @babel/preset-env babel-eslint
-5. eslint eslint-plugin-import eslint-config-airbnb-base eslint-webpack-plugin eslint-config-prettier
-6. prettier
+1. `webpack@4` `webpack-cli` `webpack-dev-server`
+2. `html-webpack-plugin`
+3. `css-loader` `style-loader` `sass-loader` `sass`
+4. `@babel/core` `babel-loader` `@babel/preset-env` `babel-eslint`
+5. `eslint` `eslint-plugin-import` `eslint-config-airbnb-base` `eslint-webpack-plugin` `eslint-config-prettier`
+6. `prettier`
