@@ -1,4 +1,3 @@
-const ESLintPlugin = require('eslint-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
@@ -31,13 +30,13 @@ module.exports = {
   },
 
   devServer: {
-    contentBase: 'dist',
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 8080
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html'
+      template: path.resolve('', 'src', 'index.html')
     })
   ]
 }
