@@ -1,22 +1,24 @@
-# Bundle Preset
+# New Project
 
-Reusable code environment to start projects more easily.
+> ✨ Bootstrapped with Create Snowpack App (CSA).
 
-## Usage
+## Available Scripts
 
-Clone the files and folder structure and install all dependencies from package.json. Now you can run the following npm scripts:
+### npm start
 
-1. `npm run start` - to start the `webpack-dev-server` in development mode
-2. `npm run dev` - to start `webpack` in development mode
-3. `npm run build` - to start `webpack` in production mode
+Runs the app in the development mode.
+Open http://localhost:8080 to view it in the browser.
 
-## Installed dependencies
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-Following dependencies will be installed:
+### npm run build
 
-1. `webpack@4` `webpack-cli` `webpack-dev-server`
-2. `html-webpack-plugin`
-3. `css-loader` `style-loader` `sass-loader` `sass`
-4. `@babel/core` `babel-loader` `@babel/preset-env` `babel-eslint` `@babel/eslint-parser`
-5. `eslint` `eslint-plugin-import` `eslint-config-airbnb-base` `eslint-webpack-plugin` `eslint-config-prettier`
-6. `prettier`
+Builds a static copy of your site to the `build/` folder.
+Your app is ready to be deployed!
+
+**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
+
+### Q: What about Eject?
+
+No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
